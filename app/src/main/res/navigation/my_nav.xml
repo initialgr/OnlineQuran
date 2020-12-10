@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/quranFragment">
+
+    <fragment
+        android:id="@+id/quranFragment"
+        android:name="com.app.muslim.QuranFragment"
+        android:label="Al-Quran"
+        tools:layout="@layout/fragment_quran" />
+    <fragment
+        android:id="@+id/favoriteQuranFragment"
+        android:name="com.app.muslim.FavoriteQuranFragment"
+        android:label="Penanda Alquran"
+        tools:layout="@layout/fragment_favorite_quran" />
+    <fragment
+        android:id="@+id/toDoListFragment"
+        android:name="com.app.muslim.ToDoListFragment"
+        android:label="Catatan"
+        tools:layout="@layout/fragment_to_do_list" />
+</navigation>
