@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/quranFragment"
-        android:name="com.app.muslim.QuranFragment"
+        android:name="com.app.muslim.ui.quran.QuranFragment"
         android:label="Al-Quran"
         tools:layout="@layout/fragment_quran" />
     <fragment
         android:id="@+id/favoriteQuranFragment"
-        android:name="com.app.muslim.FavoriteQuranFragment"
+        android:name="com.app.muslim.ui.favorites.FavoriteQuranFragment"
         android:label="Penanda Alquran"
         tools:layout="@layout/fragment_favorite_quran" />
     <fragment
         android:id="@+id/toDoListFragment"
-        android:name="com.app.muslim.ToDoListFragment"
+        android:name="com.app.muslim.ui.todolist.ToDoListFragment"
         android:label="Catatan"
         tools:layout="@layout/fragment_to_do_list" />
 </navigation>

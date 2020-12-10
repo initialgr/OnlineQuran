@@ -1,23 +1,19 @@
-package com.app.muslim
+package com.app.muslim.ui.todolist
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import kotlinx.android.synthetic.main.fragment_quran.view.*
+import com.app.muslim.R
 
-class QuranFragment : Fragment() {
+class ToDoListFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_quran, container, false)
-
-        view.recyclerview.showShimmer()
-
-        return view
+        return inflater.inflate(R.layout.fragment_to_do_list, container, false)
     }
 }
