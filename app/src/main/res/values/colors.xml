@@ -10,7 +10,9 @@
     <color name="yellow">#fddb3a</color>
     <color name="darkGray">#52575d</color>
     <color name="darkerGray">#41444b</color>
-    <color name="lightGray">#f6f4e6</color>
+    <color name="lightGray">#ACACAC</color>
     <color name="orange">#ff9642</color>
     <color name="darkOrange">#f9813a</color>
+    <color name="darkerGreen">#184d47</color>
+    <color name="darkGreen">#438a5e</color>
 </resources>
