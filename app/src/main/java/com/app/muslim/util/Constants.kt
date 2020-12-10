@@ -1,4 +1,4 @@
-package com.app.muslim
+package com.app.muslim.util
 
 class Constants {
 

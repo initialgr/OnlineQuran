@@ -1,4 +1,4 @@
-package com.app.muslim
+package com.app.muslim.data.network
 
 import com.app.muslim.models.Data
 import retrofit2.Response
